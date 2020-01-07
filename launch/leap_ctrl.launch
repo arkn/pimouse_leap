@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find pimouse_ros)/launch/pimouse.launch" />
+  <node pkg="pimouse_leap" name="leap_ctrl" type="leap_ctrl.py" required="true" />
+</launch>
